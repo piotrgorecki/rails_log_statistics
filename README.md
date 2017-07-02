@@ -1,6 +1,9 @@
 # rails_log_statistics
 Parse and print statistic data from Rails log file
 
+# Dependencies
+      $ gem install descriptive-statistics
+
 # Usage
       $ ruby main.rb ./log/development.log "/todo/archives/initial_data"
       samples; req mean;req median;req min;req max; view mean;view median;view min;view max; active record mean;active record median;active record min;active record max;
