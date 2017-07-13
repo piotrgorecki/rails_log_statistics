@@ -6,6 +6,7 @@ require 'awesome_print'
 
 require './log_statistics/parser'
 require './log_statistics/summary/summary'
+require './log_statistics/summary/summary_304'
 require './log_statistics/summary/summary_reporter'
 
 log_path = ARGV[0]

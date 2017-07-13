@@ -18,6 +18,10 @@ module LogStatistics
             set_req_ended
           end
 
+          if Summary::Summary304.is_summary(line)
+            @summary_reporter.add Summary::Summary304.new(line)
+            set_req_ended
+          end
         end
       end
     end
